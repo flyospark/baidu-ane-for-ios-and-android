@@ -14,15 +14,15 @@ iphone4/ios7,iphone5/ios7,小米/android 4测试都ok<br/>
 3.书写下面代码,正式上传应用到商店时把debug改成在百度网站获得的广告id和计费ID<br/>
 ```
 if(BaiDu.getInstance().supportDevice){
-	BaiDu.getInstance().setKeys("debug","debug");//	BaiDu.getInstance().setKeys("appsid","计费id");
+	BaiDu.getInstance().setKeys("debug","debug");//	BaiDu.getInstance().setKeys("appsid","appsec");
 	BaiDu.getInstance().showBanner(BaiDu.BANNER,RelationPosition.BOTTOM_CENTER);
 }
 ```
 4.确认xxx-app.xml中已经有ane的id代码
 ```
- <extensionID>com.baidu.mobads</extensionID>
+ <extensionID>so.cuo.platform.baidu</extensionID>
 ```
-5.ios只需要上门4步，android版本需要比ios多出此步骤
+5.ios只需要上门4步，android版本需要比ios多出此步骤<br/>
      a.给应用添加相关权限，确认在xxx-app.xml中添加下面的权限代码
 ```
             <uses-permission android:name="android.permission.INTERNET"/>
@@ -34,15 +34,16 @@ if(BaiDu.getInstance().supportDevice){
 ```
      b.代码中添加广告的Activity，提交给百度审核时需要加俩meta-data，值是百度申请到的ID，提交到市场的时候可以删除
 ```
-        <application>
+<application>
     	<meta-data android:name="BaiduMobAd_APP_ID" android:value="debug" /> 
 	<meta-data android:name="BaiduMobAd_APP_SEC" android:value="debug" />
   	 <activity android:name="com.baidu.mobads.AppActivity" android:configChanges="keyboard|keyboardHidden|orientation"/> 
-	</application>
+</application>
 ```
-     c.打包出apk，把extra目录拖进apk中。可以用apktool做，也可以用winrar做，打开方式选择winrar，然后把extra目录拖进去，就可以了,拖进去后apk目录结构可以看截图
-     d.给修改后的apk签名，可以用命令行的方式给apk签名（做法可以百度 给apk签名，专业做法），也可以用用"APK签名工具.exe"签名(简单菜鸟的做法)
-6.apk或者ipa打包出来后需要提交到百度广告联盟审核，提交申请前记得把debug都换成应用的appsid和计费id
+
+     c.打包出apk，把extra目录拖进apk中。可以用apktool做，也可以用winrar做，打开方式选择winrar，然后把extra目录拖进去，就可以了,拖进去后apk目录结构可以看截图<br/>
+     d.给修改后的apk签名，可以用命令行的方式给apk签名（做法可以百度 给apk签名，专业做法），也可以用用"APK签名工具.exe"签名(简单菜鸟的做法)<br/>
+6.apk或者ipa打包出来后需要提交到百度广告联盟审核，提交申请前记得把debug都换成应用的appsid和计费id<br/>
 
 ###ane其他api:
 缓存加载百度全屏广告
