@@ -30,7 +30,7 @@ if(BaiDu.getInstance().supportDevice){
   	 <activity android:name="com.baidu.mobads.AppActivity" android:configChanges="keyboard|keyboardHidden|orientation"/> 
 	</application>
      c.打包出apk，把extra目录拖进apk中。可以用apktool做，也可以用winrar做，打开方式选择winrar，然后把extra目录拖进去，就可以了,拖进去后apk目录结构可以看截图
-     d.给修改后的apk签名，可以用命令行的方式给apk签名（做法可以百度 给apk签名，专业做法），也可以用用"APK签名工具.exe"签名(简单菜鸟的做法)
+     d.给修改后的apk签名，可以用命令行的方式给apk签名（脚本及教程在  apk批量签名脚本及教程.zip  中）
 6.apk或者ipa打包出来后需要提交到百度广告联盟审核，提交申请前记得把debug都换成应用的appsid和计费id
 
 ane其他api:
