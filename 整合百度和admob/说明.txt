@@ -10,8 +10,6 @@
 admob ane主页
 https://code.google.com/p/flash-air-admob-ane-for-ios/
 
-baidu ane主页暂时未制作，后续会加上。可以先参考下面项目（感谢baidu-ane作者）主页，但是压缩包中的修复了ios5崩溃问题
-https://code.google.com/p/baidu-ane/
 
 platforms.swc 主页
 https://code.google.com/p/adoble-flash-air-ad-network-framework/
