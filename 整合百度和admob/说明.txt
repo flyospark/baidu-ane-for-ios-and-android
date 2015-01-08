@@ -4,13 +4,18 @@
 
 3.对于android的要注意添加activity和权限，特别是ACCESS_COARSE_LOCATION权限很容易略掉
 
-4.项目使用的是air sdk 4.0，如果版本过低或者提示编译器错误，先升级air版本，然后选择升级后的版本
+4.项目使用的是air sdk 15.0，如果版本过低或者提示编译器错误，先升级air版本，然后选择升级后的版本
 
-4.相关链接
+5.如果不清楚可以看下面链接
 admob ane主页
-https://code.google.com/p/flash-air-admob-ane-for-ios/
+https://github.com/lilili87222/admob-for-flash
 
+百度ane主页
+https://github.com/lilili87222/baidu-ane-for-ios-and-android
 
 platforms.swc 主页
-https://code.google.com/p/adoble-flash-air-ad-network-framework/
+https://github.com/lilili87222/as3-air-ad-network-framework
 
+
+
+admob ane 和百度ane都支持  air 16 ，ios 64位
