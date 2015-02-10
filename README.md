@@ -109,3 +109,9 @@ BaiDu.getInstance().showVideo(VideoType.VideoPause,new Rectangle(50,100,250,250)
 	public static const onInterstitialPresent:String = "onInterstitialPresent";
 -	10.全屏广告加载成功<br/>
 	public static const onInterstitialReceive:String = "onInterstitialReceive";
+
+
+if user like this lib,you can download and review our game <br/>
+https://itunes.apple.com/us/artist/phonegame/id553087275?mt=8 <br/>
+donate and download more ane  <br/>
+http://www.cuo.so/ane-list/index.html  <br/>
