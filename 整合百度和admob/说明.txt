@@ -8,10 +8,10 @@
 
 5.如果不清楚可以看下面链接
 admob ane主页
-https://github.com/lilili87222/admob-for-flash
+http://www.cuo.so/ane-list/admob-ane.html
 
 百度ane主页
-https://github.com/lilili87222/baidu-ane-for-ios-and-android
+http://www.cuo.so/ane-list/baidu-ane.html
 
 platforms.swc 主页
 https://github.com/lilili87222/as3-air-ad-network-framework
@@ -19,3 +19,6 @@ https://github.com/lilili87222/as3-air-ad-network-framework
 
 
 admob ane 和百度ane都支持  air 16 ，ios 64位
+
+
+捐赠和下载更多ane http://www.cuo.so/ane-list/
